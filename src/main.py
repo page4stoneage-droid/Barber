@@ -50,7 +50,7 @@ class BarberShop:
             return 
         else : 
             time =input('Enter your desired time : ')
-            if time in self.appointments.values:
+            if time in self.appointments.values{}:
                 print(f"\n[Error] Sorry, {time} is already booked.")
             else :
                 self.appointments[self.current_user]=time
