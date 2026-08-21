@@ -31,7 +31,7 @@ class BarberShop:
         self.clear_screen()
         print('---Login Panel---')
         username = input("Username : ")
-        password = input("Password : ")
+        password = getpass.getpass("Password : ")
         
         if username in self.users and self.users[username]==password:
             self.current_user = username
